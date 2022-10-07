@@ -1,0 +1,32 @@
+body{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    min-height: 100vh;
+}
+
+
+.btn-hover{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(109, 214, 214);
+    color: white;
+    border: none;
+    border-bottom: 2px solid  darkcyan;
+    cursor: pointer;
+
+}
+
+.btn-hover:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 5px 5px rgba(44, 43, 43, 0.76);
+    transition: 0.4s;
+    border-bottom: 2px solid rgb(3, 43, 43) ;
+    background-color: rgb(3, 63, 63) ;
+    color: rgb(170, 168, 168);
+
+}
+
+
